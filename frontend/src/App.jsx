@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API = "/api/contacts";
+const API = "https://assessment-7-enclave-portal.onrender.com/api/contacts";
 
 export default function App() {
   const [page, setPage] = useState("contact"); // "contact" | "admin"
